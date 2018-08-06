@@ -17,3 +17,7 @@ Our process can be broken into three milestones, in each one we implement a uniq
 #### Milestone 3
 
   In phase 3 we took care of **collision detection** between the dinosaur and the obstacles. For collision detection, we used a module which keeps track of the obstacle locations and dinosaur coordinates. A separate module checks at each CLOCK-50 posedge if the dinosaur has coordinates overlapping with an obstacle. If the dinosaur has not cleared the obstacle, the game ends and the animations are stopped. By pressing a reset button, the game is cleared and set to its initial state where and the player can restart. 
+
+## Authors
+* [Tiffany Kuo](https://github.com/tiffak)
+* [Muneeb Ansari](https://github.com/MuneebAnsari)
